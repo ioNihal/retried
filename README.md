@@ -1,5 +1,11 @@
 # retried
 
+[![npm version](https://img.shields.io/npm/v/retried-js.svg?style=flat-square)](https://www.npmjs.com/package/retried-js)
+[![npm downloads](https://img.shields.io/npm/dm/retried-js.svg?style=flat-square)](https://www.npmjs.com/package/retried-js)
+[![bundle size](https://img.shields.io/bundlephobia/min/retried-js?style=flat-square)](https://bundlephobia.com/package/retried-js)
+[![license](https://img.shields.io/npm/l/retried-js.svg?style=flat-square)](https://github.com/ioNihal/retried/blob/master/LICENSE)
+[![typescript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square)](https://www.typescriptlang.org/)
+
 A lightweight, framework-agnostic retry utility for JavaScript runtimes.
 
 Works in Node.js, Bun, Deno, Cloudflare Workers, Vercel Edge Functions, browsers, and any modern JavaScript environment.
@@ -15,21 +21,21 @@ Works in Node.js, Bun, Deno, Cloudflare Workers, Vercel Edge Functions, browsers
 ## Installation
 
 ```bash
-npm install retried
+npm install retried-js
 ```
 
 ```bash
-pnpm add retried
+pnpm add retried-js
 ```
 
 ```bash
-bun add retried
+bun add retried-js
 ```
 
 ## Quick Start
 
 ```ts
-import { retry } from "retried";
+import { retry } from "retried-js";
 
 const user = await retry(() => fetchUser());
 ```
@@ -194,7 +200,7 @@ Built-in logging for debugging retry behavior. Every error that triggers a retry
 ### Using the built-in logger
 
 ```ts
-import { retry, createRetryLogger } from "retried";
+import { retry, createRetryLogger } from "retried-js";
 
 await retry(fetchUser, {
   attempts: 3,

@@ -11,7 +11,7 @@ import type { RetryLogger, RetryLogContext } from './types';
  *
  * @example
  * ```ts
- * import { retry, createRetryLogger } from 'retried';
+ * import { retry, createRetryLogger } from 'retried-js';
  *
  * await retry(fetchUser, {
  *   logger: createRetryLogger(),

@@ -1,18 +1,18 @@
 /**
- * retried - A lightweight, framework-agnostic retry utility.
+ * retried-js - A lightweight, framework-agnostic retry utility.
  *
  * @packageDocumentation
  *
  * @example Simplest usage
  * ```ts
- * import { retry } from 'retried';
+ * import { retry } from 'retried-js';
  *
  * const user = await retry(() => fetchUser());
  * ```
  *
  * @example With options
  * ```ts
- * import { retry, createRetryLogger } from 'retried';
+ * import { retry, createRetryLogger } from 'retried-js';
  *
  * const user = await retry(fetchUser, {
  *   attempts: 5,

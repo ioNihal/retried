@@ -23,10 +23,17 @@
   ],
   "sideEffects": false,
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Nihal K",
+    "url": "https://ionihal.vercel.app"
+  },
+  "homepage": "https://github.com/ioNihal/retried#readme",
+  "bugs": {
+    "url": "https://github.com/ioNihal/retried/issues"
+  },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/ioNihal/retried.git"
   },
   "keywords": [
     "retry",

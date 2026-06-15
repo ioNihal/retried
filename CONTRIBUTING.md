@@ -13,7 +13,7 @@ Thank you for your interest in contributing! Here's how to get started.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/retried.git
+git clone https://github.com/ioNihal/retried.git
 cd retried
 
 # Install dependencies

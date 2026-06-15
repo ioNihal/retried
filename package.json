@@ -1,6 +1,6 @@
 {
   "name": "retried-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight, framework-agnostic retry utility for JavaScript runtimes. Zero dependencies, TypeScript-first.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -19,7 +19,8 @@
     }
   },
   "files": [
-    "dist"
+    "dist",
+    "CHANGELOG.md"
   ],
   "sideEffects": false,
   "license": "MIT",

@@ -1,0 +1,59 @@
+{
+  "name": "retried",
+  "version": "0.1.0",
+  "description": "A lightweight, framework-agnostic retry utility for JavaScript runtimes. Zero dependencies, TypeScript-first.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "retry",
+    "retried",
+    "backoff",
+    "exponential",
+    "exponential-backoff",
+    "promise",
+    "fetch",
+    "resilience",
+    "jitter",
+    "typescript",
+    "zero-dependency"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.2.0"
+  }
+}
